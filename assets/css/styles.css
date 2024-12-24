@@ -75,6 +75,23 @@ body{
     color: var(--color-primary);
 }
 
+.nav__title::before{
+    content: "";
+    height: 0.2rem;
+    width: 0;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: -0.7rem;
+    left: 0;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.nav__title:hover::before{
+    width: 100%;
+    opacity: 1;
+}
+
 .nav__submenu{
     display: none;
 }

@@ -4,6 +4,7 @@
     --color-primary:#5956e9;
     --color-secondary: #fff;
     --color-banner: #2522BA;
+    --color-text-btn: #0d6efd;
 }
 
 /*  Estilos Generales   */
@@ -208,4 +209,18 @@ body{
     font-weight: 700;   
     line-height: 1.2;
     color: var(--color-secondary);
+    margin-bottom: 3rem;
+}
+
+.bannner__btn{
+    display: inline-block;
+    padding: 2.8rem 4.5rem;
+    border-radius: 20px;
+    background-color: var(--color-secondary);
+    color: var(--color-text-btn);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: 0px 45px 80px -25px var(--color-primary);
 }

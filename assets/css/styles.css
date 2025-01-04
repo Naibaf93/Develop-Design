@@ -263,6 +263,19 @@ body{
 .shapes__item--shape2{
     bottom: 0;
     left: 0;
+
+    animation-name: showLeft;
+    animation-duration: 1s;  
+}
+
+@keyframes showLeft{
+    0%{
+        transform: translateX(-50%);
+    }   
+    
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 .shapes__item--shape3{

@@ -245,6 +245,19 @@ body{
     top: 0;
     right: 0;
     text-align: right;
+
+    animation-name: showRight;
+    animation-duration: 1s;  
+}
+
+@keyframes showRight{
+    0%{
+        transform: translateX(50%);
+    }   
+    
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 .shapes__item--shape2{

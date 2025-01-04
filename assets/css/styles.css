@@ -3,6 +3,7 @@
     --color-text-body:#525260;
     --color-primary:#5956e9;
     --color-secondary: #fff;
+    --color-banner: #2522BA;
 }
 
 /*  Estilos Generales   */
@@ -180,4 +181,31 @@ body{
 
 .submenu__title:hover::after{
     width: 100%;
+}
+
+/* Banner y títulos */
+.layout__banner{
+    position: relative;
+    min-height: 60rem;
+    margin: 0 3rem;
+    padding-right: 0;
+    padding-left: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    border-radius: 6rem;
+    overflow: hidden;
+    background-color: var(--color-banner);
+}
+
+.banner__content{
+    display: inline-block;
+    width: 50%;
+    padding: 0 1.5rem;
+}
+
+.banner__title{
+    font-size: 8rem;
+    font-weight: 700;   
+    line-height: 1.2;
+    color: var(--color-secondary);
 }

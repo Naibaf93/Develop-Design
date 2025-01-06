@@ -7,6 +7,7 @@
     --color-text-btn: #0d6efd;
     --color-bg-btn: #ffdc60;
     --color-subtitle: #c75c6f;
+    --color-title: #292930;
 }
 
 /*  Estilos Generales   */
@@ -419,6 +420,16 @@ body{
     margin-bottom: 2rem;
 }
 
-.services__subtitle{
+.services__subtitle{ 
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-subtitle);
+    margin-bottom: 1.5rem;
+}
 
+.services__title{
+    font-size: 6.7rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-title);
 }

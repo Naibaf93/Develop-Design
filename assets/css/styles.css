@@ -6,6 +6,7 @@
     --color-banner: #2522BA;
     --color-text-btn: #0d6efd;
     --color-bg-btn: #ffdc60;
+    --color-subtitle: #c75c6f;
 }
 
 /*  Estilos Generales   */
@@ -399,4 +400,25 @@ body{
     100%{
         transform: translateY(0%);
     }
+}
+
+/* Estilos seccion servicios */
+.layout__services{
+    position: relative;
+    margin: 5rem 4rem;
+    z-index: 1; 
+}
+
+.services__grid{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.services__header{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.services__subtitle{
+
 }

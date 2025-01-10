@@ -410,6 +410,7 @@ body{
 .layout__services{
     position: relative;
     margin: 14rem 10rem;
+    margin-bottom: 8rem;
     z-index: 1; 
 }
 

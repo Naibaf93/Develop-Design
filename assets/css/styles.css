@@ -443,8 +443,8 @@ body{
 
 .services__service{
     width: 33%;
+    height: 100%;
     padding: 5rem 4rem;
-    padding-bottom: 3rem;
     border-radius: 3rem;
     margin-bottom: 4rem;
     background: linear-gradient(180deg, var(--color-bg-services), rgba(255, 255, 255, 0));
@@ -472,6 +472,7 @@ body{
 }
 
 .service__title{
+    color: var(--color-title);
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
@@ -512,4 +513,18 @@ body{
 
 .service__more:hover::before{
     color: var(--color-primary);
+}
+
+/* Escalonado tarjetas servicio */
+
+.services__service--bottom{
+    margin-top: 20rem;
+}
+
+.services__service--middle{
+    margin-top: 10rem;
+}
+
+.services__service--top{
+    margin-top: 0rem;
 }

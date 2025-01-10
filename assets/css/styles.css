@@ -641,3 +641,24 @@ body{
 .project__tags{
     font-size: 1.8rem;
 }
+
+.project-shapes__item{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.project-shapes--shape1{
+    right: 12%;
+    top: 4%;
+}
+
+.project-shapes--shape2{
+    top: 8%;
+    right: 35%;
+}
+
+.project-shapes--shape3{
+    top: 38%;
+    left: 5%;
+}

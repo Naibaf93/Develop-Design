@@ -9,6 +9,7 @@
     --color-subtitle: #c75c6f;
     --color-title: #292930;
     --color-bg-services: #f8f8f8;
+    --color-bg-projects: #ecf2f6;
 }
 
 /*  Estilos Generales   */
@@ -550,4 +551,9 @@ body{
 .service-shapes--shape3{
     top: 34%;
     left: 5%;
+}
+
+/* Estilos proyectos */
+.layout__projects{
+
 }

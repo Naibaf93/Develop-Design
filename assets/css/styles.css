@@ -1,5 +1,6 @@
 /*  Variables   */
 :root{
+    --mx-width: 1320px;
     --color-text-body:#525260;
     --color-primary:#5956e9;
     --color-secondary: #fff;
@@ -555,5 +556,13 @@ body{
 
 /* Estilos proyectos */
 .layout__projects{
-
+    position: relative;
+    background-color: var(--color-bg-projects);
+    padding: 14rem 10rem;
+    z-index: 1;
 }
+
+.projects__grid{
+    max-width: 1320px;
+}
+

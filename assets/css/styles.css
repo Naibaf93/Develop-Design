@@ -414,7 +414,7 @@ body{
 }
 
 .services__grid{
-    max-width: 1320px;
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -423,14 +423,16 @@ body{
     margin-bottom: 2rem;
 }
 
-.services__subtitle{ 
+.services__subtitle,
+.projects__subtitle{ 
     font-size: 2rem;
     font-weight: 500;
     color: var(--color-subtitle);
     margin-bottom: 1.5rem;
 }
 
-.services__title{
+.services__title,
+.projects__title{
     font-size: 6.7rem;
     font-weight: 600;
     line-height: 1.2;
@@ -563,6 +565,14 @@ body{
 }
 
 .projects__grid{
-    max-width: 1320px;
+    max-width: var(--mx-width);
+    margin: 0 auto;
 }
 
+.projects__header{
+    margin-bottom: 4rem;
+}
+
+.projects__subtitle{
+   text-transform: capitalize;
+}

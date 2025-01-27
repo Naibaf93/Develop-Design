@@ -1319,3 +1319,58 @@ body{
 .widget__lin:hover{
     color: var(--color-banner);
 }
+
+.footer__bottom{
+    border-top: 1px solid var(--color-borders);
+    padding: 2.5rem 0;
+    display: flex;
+}
+
+.footer__copyright{
+    flex-basis: 50%;
+}
+
+.copyright__text{
+    display: inline-block;
+    color: var(--color-text-description);
+}
+
+.copyright__text > a {
+    display: inline;
+}
+
+.footer__links{
+    flex-basis: 50%;
+}
+
+.footer__f-links{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3.5rem;
+    color: var(--color-text-description);
+}
+
+.f-links__title{
+    transition: all 300ms ease-in-out;
+}
+
+.f-links__title:hover{
+    color: var(--color-banner);
+}
+
+.f-links__item{
+    display: inline-block;
+    position: relative;
+}
+
+.f-links__item--separator::after{
+    content: "";
+    height: 4px;
+    width: 4px;
+    background-color: var(--color-text-description);
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    right: -12%;
+}

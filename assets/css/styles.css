@@ -1281,3 +1281,41 @@ body{
 .f-left__btn:hover{
     background-color: var(--color-banner);
 }
+
+.footer__f-right{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.footer__widget{
+    margin-bottom: 8rem;
+    flex-basis: 33%;
+}
+
+.footer__widget--50{
+    flex-basis: 50%;
+}
+
+.footer__widget--25{
+    flex-basis: 25%;
+}
+
+.widget__title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-title);
+    margin-bottom: 3rem;
+}
+
+.widget__link{
+    font-size: 1.8rem;
+    padding: 0.8rem 0;
+    display: inline-block;
+    transition: all 300ms linear;
+}
+
+.widget__lin:hover{
+    color: var(--color-banner);
+}

@@ -1204,3 +1204,46 @@ body{
 .social__link:hover > .social__img{
     color: var(--color-text-body);
 }
+
+.footer__main{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__f-left{
+    flex-basis: 50%;
+}
+
+.f-left__container{
+    border-right: 1px solid var(--color-borders);
+    padding-right: 8rem;
+    margin-right: 4rem;
+    margin-bottom: 8rem;
+}
+
+.f-left__title{
+    display: inline-block;
+    font-size: 6.4rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color-title);
+    margin-bottom: 2rem;
+}
+
+.f-left__subtitle{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
+
+.f-left__group{
+    position: relative;
+    width: 100%;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    height: 7.2rem;
+    padding: 1rem;
+    padding-right: 5.5rem;
+    box-shadow: 0 24px 48px -15px #ddd;
+
+    display: flex;
+}

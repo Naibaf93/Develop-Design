@@ -642,13 +642,16 @@ body{
     font-size: 3.2rem;
     line-height: 1.2;
     font-weight: 500;
-    color: var(--color-title);
     margin-bottom: 1rem;
     text-decoration: none;
     transition: all 300ms ease-in-out;
 }
 
-.project__title:hover{
+.project__link-title{
+    color: var(--color-title);
+}
+
+.project__link-title:hover{
     color: var(--color-banner);
 }
 
@@ -1310,13 +1313,15 @@ body{
 }
 
 .widget__link{
-    font-size: 1.8rem;
+    color: var(--color-text-body);
+    font-size: 2rem;
+    font-weight: 500;
     padding: 0.8rem 0;
     display: inline-block;
     transition: all 300ms linear;
 }
 
-.widget__lin:hover{
+.widget__link:hover{
     color: var(--color-banner);
 }
 
@@ -1352,6 +1357,7 @@ body{
 }
 
 .f-links__title{
+    color: var(--color-text-description);
     transition: all 300ms ease-in-out;
 }
 

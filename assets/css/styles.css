@@ -1240,10 +1240,44 @@ body{
     width: 100%;
     background-color: var(--color-secondary);
     border-radius: 20px;
-    height: 7.2rem;
     padding: 1rem;
     padding-right: 5.5rem;
     box-shadow: 0 24px 48px -15px #ddd;
 
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-left__mail-icon{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.f-left__form-control{
+    position: relative;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    height: auto;
+    border: none;
+    outline: none;
+    color: var(--color-title);
+    margin-left: 2rem;
+    flex: 1;    
+}
+
+.f-left__btn{
+    height: 5.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border-radius: 16px;
+    padding: 1.4rem 3rem;
+    transition: all 300ms ease-in-out;
+}
+
+.f-left__btn:hover{
+    background-color: var(--color-banner);
 }

@@ -286,4 +286,45 @@
     .contact__img{
         width: 70%;
     }
+
+    .social__img{
+        font-size: 2rem;
+    }
+
+    .footer__main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__f-left{
+        width: 100%;
+    }
+
+    .f-left__container{
+        border: none;
+    }
+
+    .footer__f-right{
+        width: 100%;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+    }
+
+    .footer__copyright{
+        flex-basis: auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .footer__links{
+        flex-basis: auto;
+        text-align: center;
+    }
+
+    .footer__f-links{
+        justify-content: center;
+    }
 }

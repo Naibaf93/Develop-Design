@@ -186,4 +186,104 @@
     .service-shapes--shape2{
         display: none;
     }
+
+    .layout__projects{
+        padding: 8rem 4rem;
+    }
+
+    .project-shapes--shape2{
+        display: none;
+    }
+
+    .layout__stats,
+    .layout__clients{
+        padding: 8rem 5rem;
+    }
+
+    .stats__description,
+    .clients__description{
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .stats__progress{
+        flex-wrap: wrap;
+    }
+
+    .stats__stat{
+        width: calc(50% - 1.5rem);
+    }
+
+    .layout__reviews{
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+    }
+
+    .reviews__description,
+    .news__description{
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .reviews__container{
+        flex-direction: column;
+    }
+
+    .clients__title{
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .clients__logos{
+        flex-wrap: wrap;
+    }
+
+    .clients__item{
+        width: calc(50% - 3rem);
+    }
+
+    .layout__news{
+        padding: 8rem 0;
+    }
+
+    .layout__contact{
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .layout__contact::before{
+        height: 60rem;
+    }
+
+    .contact__title{
+        width: 100%;
+    }
+
+    .contact__btn{
+        padding: 1.8rem 3.5rem;
+    }
+
+    .contact__thumb--chat{
+        margin-right:  -13rem;
+        margin-bottom: -0.8rem;
+        width: 70%;
+    }
+
+    .contact__img{
+        width: 100%;
+    }
+
+    .contact__thumb--laptop{
+        bottom: 0;
+        left: 0;
+    }
+
+    .contact__thumb--mobile{
+        bottom: 0;
+        right: -8rem;
+    }
+
+    .contact__img{
+        width: 70%;
+    }
 }

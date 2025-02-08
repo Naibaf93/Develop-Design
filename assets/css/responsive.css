@@ -343,7 +343,7 @@
         margin: 7rem 7rem;
     }
 
-        /*.services__grid,
+    /*.services__grid,
     .projects__grid,
     .stats__container,
     .contact__container,*/
@@ -456,5 +456,41 @@
         padding-right: 0;
         margin-right: 0;
         margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .layout__projects,
+    .stats__container,
+    .contact__container,*/
+    .reviews__grid,
+    .clients__container,
+    .news__container,
+    .footer__container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .layout__services{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+
+    .contact__thumb--chat{
+        margin-right:  -5rem;
+    }
+
+    .contact__thumb--laptop{
+        bottom: 0;
+        left: 0;
+    }
+
+    .contact__thumb--mobile{
+        bottom: 0;
+        right: 8rem;
+    }
+
+    .contact__img{
+        width: 35%;
     }
 }

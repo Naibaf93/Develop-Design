@@ -487,10 +487,21 @@
 
     .contact__thumb--mobile{
         bottom: 0;
-        right: 8rem;
+        right: -21rem;
     }
 
     .contact__img{
         width: 35%;
+    }
+
+    .footer__f-right{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        gap: 4rem;
+    }
+
+    .footer__widget--50{
+        flex-basis: auto;
     }
 }

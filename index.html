@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="assets/fonts/dmsans/dmsans.css">
 
     <!-- Cargar estilos -->
-    <link rel="stylesheet" href="assets/css/reset.css">  
-    <link rel="stylesheet" href="assets/css/styles.css"> 
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">   
  
     <!-- Cargar Javascript -->
 
@@ -18,7 +19,108 @@
     <link rel="stylesheet" href="assets/fonts/dmsans/dmsans.css">
 </head>
 <body>
-    
+
+    <!-- Menu navegacion responsive -->
+     <div class="menu-mobile">
+
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a href="#" class="menu-mobile__link-logo">
+                    <img src="assets/img/logo1.png" alt="logo del sitio web" class="menu-mobile__logo">
+                </a>
+            </div>
+
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Inicio</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Servicios</a>
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Movil</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Portafolio</a>
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Movil</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Blog</a>
+                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Desarrollo Movil</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Programación</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="#" class="submenu-mobile__link">Consultoria</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Equipo</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Contacto</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>
+     </div>
+    <!-- Layout principal o estructura principal -->
     <div class="layout">
         <!-- Menu -->
         <section class="layout__menu">
@@ -31,31 +133,40 @@
                     </a>
                 </div>
 
+                <!-- Boton de menu responsive -->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                    </button>
+                </div>
+
                 <!-- Navegación -->
                 <nav class="navbar__nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="" class="nav__title">Inicio</a>
+                            <a href="#" class="nav__title">Inicio</a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__title">Servicios</a>
+                            <a href="#" class="nav__title">Servicios</a>
                                 <i class="fa-solid fa-chevron-down nav__icon"></i>
                             </a>
                             <ul class="nav__submenu">
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Diseño Web</a>
+                                    <a href="#" class="submenu__title">Diseño Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Web</a>
+                                    <a href="#" class="submenu__title">Desarrollo Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Movil</a>
+                                    <a href="#" class="submenu__title">Desarrollo Movil</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Programación</a>
+                                    <a href="#" class="submenu__title">Programación</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Consultoria</a>
+                                    <a href="#" class="submenu__title">Consultoria</a>
                                 </li>
                             </ul>
                         </li>
@@ -66,19 +177,19 @@
                             </a>
                             <ul class="nav__submenu">
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Diseño Web</a>
+                                    <a href="#" class="submenu__title">Diseño Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Web</a>
+                                    <a href="#" class="submenu__title">Desarrollo Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Movil</a>
+                                    <a href="#" class="submenu__title">Desarrollo Movil</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Programación</a>
+                                    <a href="#" class="submenu__title">Programación</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Consultoria</a>
+                                    <a href="#" class="submenu__title">Consultoria</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,28 +200,28 @@
                             </a>
                             <ul class="nav__submenu">
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Diseño Web</a>
+                                    <a href="#" class="submenu__title">Diseño Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Web</a>
+                                    <a href="#" class="submenu__title">Desarrollo Web</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Desarrollo Movil</a>
+                                    <a href="#" class="submenu__title">Desarrollo Movil</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Programación</a>
+                                    <a href="#" class="submenu__title">Programación</a>
                                 </li>
                                 <li class="submenu__item">
-                                    <a href="" class="submenu__title">Consultoria</a>
+                                    <a href="#" class="submenu__title">Consultoria</a>
                                 </li>
                             </ul>
                         </li>
 
                         <li class="nav__item">
-                            <a href="" class="nav__title">Equipo</a>
+                            <a href="#" class="nav__title">Equipo</a>
                         </li>
                         <li class="nav__item">
-                            <a href="" class="nav__title">Contacto</a>
+                            <a href="#" class="nav__title">Contacto</a>
                         </li>
                     </ul>
                 </nav> 

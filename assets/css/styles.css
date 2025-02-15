@@ -1515,7 +1515,6 @@ body{
 }
 
 .submenu-mobile__link{
-    display: none;
     text-decoration: none;
     position: relative;
     padding: 0.7rem 1rem;

@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", (e) =>{
     let mobileBtn = document.querySelector(".navbar__mobile-btn");
     let mobileMenu = document.querySelector(".menu-mobile");
     let btnClose = document.querySelector(".menu-mobile__close");
+    let menuItem = document.querySelectorAll(".menu-mobile__item");
 
     // Funcion mostrar y ocultar menu
     const showHiddenMenu = () => {
@@ -29,5 +30,20 @@ document.addEventListener("DOMContentLoaded", (e) =>{
     });
 
     // Poder cerrar el menu con el boton X
-    btnClose.addEventListener("click", showHiddenMenu);     
+    btnClose.addEventListener("click", showHiddenMenu);
+    
+    // Desplegar submenus
+    menuItem.forEach(item => {
+        item.addEventListener("click", (e) => {
+            let submenu = item.lastElementChild;
+
+            if(submenu.className === "menu-mobile__submenu-mobile") {
+                if(submenu.style.display === "block"){
+                    submenu.style.display = "none";
+                } else {
+                    submenu.style.display = "block";
+                }
+            }
+        });
+    });
 });

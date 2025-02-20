@@ -1,18 +1,66 @@
 /*  Variables   */
 :root{
     --mx-width: 1320px;
-    --color-text-body:#525260;
-    --color-primary:#5956e9;
-    --color-secondary: #fff;
-    --color-banner: #2522BA;
-    --color-text-btn: #0d6efd;
-    --color-bg-btn: #ffdc60;
+    --color-text-body:#D3D3D4;
+    --color-primary:#5956E9;
+    --color-secondary: #D3D3D4;
+    --color-banner: #27272E;
+    --color-text-btn: #fff;
+    --color-bg-btn: #2522ba;
     --color-subtitle: #c75c6f;
-    --color-title: #292930;
-    --color-bg-services: #f8f8f8;
-    --color-bg-projects: #ecf2f6;
+    --color-title: #D3D3D4;
+    --color-bg-services: #27272E;
+    --color-bg-projects: #292930;
     --color-bg-stats: #27272E;
     --color-text-description: #99A1AA;
     --color-hover-dark: #303035;
     --color-borders: #e3e6e9;  
+}
+body{
+    background-color: #212121;
+}
+
+.banner__btn{
+    background-color: var(--color-primary);
+}
+
+.menu__navbar--fixed{
+    background-color: var(--color-banner);
+}
+
+.project__content{
+    background-color: var(--color-banner);
+}
+
+.layout__contact::before{
+    background-color: var(--color-banner);
+}
+
+.contact__subtitle{
+    color: #FFDC60;
+}
+
+.contact__btn{
+    background-color: var(--color-primary);
+    color: var(--color-text-btn);
+}
+
+.contact__btn:hover{
+    color: var(--color-text-btn);
+}
+
+.review__description,
+.author__name,
+.new__more{
+    color: var(--color-text-body);
+}
+
+.f-left__group{
+    background-color: var(--color-banner);
+    box-shadow: none;
+}
+
+.f-left__form-control{
+    background-color: #212121;
+    color: var(--color-title);
 }

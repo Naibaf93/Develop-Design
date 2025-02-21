@@ -28,6 +28,10 @@ body{
     background-color: var(--color-hover-dark);
 }
 
+.mobile-btn__wrap{
+    background-color: var(--color-primary);
+}
+
 .nav__submenu{
     background-color: var(--color-banner);
 }
@@ -99,4 +103,8 @@ body{
 
 .widget__link:hover{
     color: var(--color-hover-dark);
+}
+
+.menu-mobile--show{
+    background-color: var(--color-bg-stats);
 }

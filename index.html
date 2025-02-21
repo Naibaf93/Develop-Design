@@ -11,16 +11,30 @@
     <!-- Cargar estilos -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="assets/css/dark.css"> -->
     <link rel="stylesheet" href="assets/css/responsive.css">   
  
     <!-- Cargar Javascript -->
     <script src="assets/js/mobile.js"></script>
     <script src="assets/js/navbar-fixed.js"></script>
+    <script src="assets/js/dark.js"></script>
 
     <title>Develop & Design | Fabián Huertas</title>
     <link rel="stylesheet" href="assets/fonts/dmsans/dmsans.css">
 </head>
 <body>
+
+    <!-- Boton modo oscuro -->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon swithcer__icon"></i>
+            </span>
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb swithcer__icon"></i>
+            </span>
+        </button>
+    </div> 
 
     <!-- Menu navegacion responsive -->
      <div class="menu-mobile">
@@ -126,7 +140,7 @@
     <div class="layout">
         <!-- Menu -->
         <section class="layout__menu">
-            <header class="menu__navbar">
+            <header class="menu__navbar menu__navbar--fixed">
 
                 <!-- Logo -->
                 <div class="navbar__logo">

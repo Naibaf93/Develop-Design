@@ -211,6 +211,7 @@
 
     .stats__progress{
         flex-wrap: wrap;
+        margin-left: 18rem;
     }
 
     .stats__stat{
@@ -460,6 +461,12 @@
         margin-right: 0;
         margin-bottom: 8rem;
     }
+
+    .switcher__icon-light,
+    .switcher__icon-dark{
+        font-size: 2.3rem;
+        width: 4.5rem;
+}
 }
 
 @media (max-width: 640px) {
@@ -495,6 +502,10 @@
 
     .contact__img{
         width: 35%;
+    }
+
+    .stats__progress{
+        margin-left: 0;
     }
 
     .footer__f-right{

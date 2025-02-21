@@ -1557,9 +1557,9 @@ body{
 .switcher__icon-light,
 .switcher__icon-dark{
     color: var(--color-secondary);
-    font-size: 2rem;
+    font-size: 2.5rem;
     height: 4rem;
-    width: 4rem;
+    width: 8rem;
     line-height: 3.6rem;
 }
 
